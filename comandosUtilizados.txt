@@ -1,0 +1,43 @@
+  501  mkdir 20230605-JanetMarulanda
+  502  cd 20230605-JanetMarulanda
+  503  git init
+  504  touch  comandos.txt main.js index.html
+  505  git add .
+  506  git commit -m "commit 01 de janetMarulanda"
+  507  git remote add origin https://github.com/janetmu/20230605-JanetMarulanda.git
+  508  git push -u origin main
+  509  git branch feature01
+  510  git checkout feature01
+  511  mkdir Terminal Hardware
+  512  cd Terminal
+  513  touch resumen.txt
+  514  cd ..
+  515  cd Hardware
+  516  touch resumen.txt
+  517  cd ..
+  518  git add .
+  519  git commit -m "commit 02 de janetMarulanda"
+  520  git push origin feature01
+  521  git branch feature02
+  522  cd Terminal/resumen.txt
+  523  cd Terminal
+  524  cd resume.txt
+  525  git add .
+  526  git checkout feature02
+  527  cd Terminal
+  528  cd resumen.txt
+  529  cd ..
+  530  cd Terminal/resumen.txt
+  531  cd Terminal
+  532  file resumen.txt
+  533  git add .
+  534  git commit -m "commit 03 de janetMarulanda"
+  535  git push origin feature02
+  536  git ls
+  537  cd ..
+  538  git add .
+  539  git commit -m "commit 04 de janetMarulanda"
+  540  git push origin feature02
+  541  git checkout main
+  542  mv comandos.txt comandosUtilizados.txt
+  543  history
