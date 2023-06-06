@@ -1,0 +1,5 @@
+git clone (clonar repositorio)
+git init (inicializar repositorio)
+git checkout -b "nombre-rama" (crear rama y posicionarse en ella)
+git branch "nombre-rama" (crear rama)
+git commit -m "mensaje" (hacer un commit)
